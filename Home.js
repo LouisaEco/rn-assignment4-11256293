@@ -249,27 +249,17 @@ const styles = StyleSheet.create({
   },
   seeAll: {
     fontSize: 16,
-    color: '#007AFF',
+    color: '#AFB0B6',
   },
   marginLeft: {
     marginLeft: 8,
   },
 
-  jobCardsContainer: {
-    paddingVertical: 16,
-  },
   jobCardContainer: {
     width: 286,
     height: 186,
     borderRadius: 24,
     marginRight: 16,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
     elevation: 5,
     backgroundColor:'#83B4FF',
   },
@@ -277,6 +267,7 @@ const styles = StyleSheet.create({
     padding: 16,
     justifyContent: 'space-between',
     flexDirection: 'column',
+    color: '#FFFFFF',
   },
   jobTitleLocationContainer: {
     alignItems: 'flex-start',
@@ -290,19 +281,21 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     marginBottom: 4,
+    color: '#FFFFFF',
   },
   jobCompany: {
     fontSize: 14,
-    color: '#888',
     marginBottom: 50,
+    color: '#FFFFFF',
    },
   jobLocation: {
     fontSize: 14,
-    color: '#888',
+    color: '#FFFFFF',
   },
   jobSalary: {
     fontSize: 14,
-    color: '#888',
+    color: '#FFFFFF',
+
   },
 
   logoContainer: {
@@ -366,7 +359,8 @@ const styles = StyleSheet.create({
      },
 
      jobCardContainerId2:{
-      backgroundColor: 'yellow',
+      backgroundColor: '#001C30',
+      color: '#FFFFFF',
      }
 });
 
