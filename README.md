@@ -34,7 +34,7 @@ This will start the metro server and you can run the app on your physical device
 Demo
 You can provide screenshots or gifs showing how the app works in this section.
 
-### Technologies
+## Technologies
 React Native
 React Navigation
 JavaScript
