@@ -360,10 +360,8 @@ const styles = StyleSheet.create({
 
      jobCardContainerId2:{
       backgroundColor: '#001C30',
-      color: '#FFFFFF',
      }
 });
 
 
 export default Home;
-
