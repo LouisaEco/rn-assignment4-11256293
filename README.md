@@ -34,6 +34,12 @@ This will start the metro server and you can run the app on your physical device
 Demo
 You can provide screenshots or gifs showing how the app works in this section.
 
+## Screenshots
+![login](https://github.com/LouisaEco/rn-assignment4-11256293/assets/147488916/39dec873-89b4-436d-bb1a-0a518c3f0e85)
+
+![login2](https://github.com/LouisaEco/rn-assignment4-11256293/assets/147488916/3e04f0fe-28e6-4866-8c0f-f0ebe4adb099)
+![homepage](https://github.com/LouisaEco/rn-assignment4-11256293/assets/147488916/9056b7de-878e-4525-9607-df9dad80ca57)
+
 ## Technologies
 React Native
 React Navigation
