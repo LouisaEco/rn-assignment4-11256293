@@ -39,7 +39,6 @@ React Native
 React Navigation
 JavaScript
 
-## Authors
-### Your Name
+## Author
 Kornu Louisa Xorlali Eco
 11256293
