@@ -27,7 +27,7 @@ const Home = ({ route }) => {
     {
       id: '2',
       title: 'UX Designer',
-      company: 'Apex Solutions',
+      company: 'Google',
       location: 'New York, NY',
       salary: '$160,000',
     },
@@ -55,7 +55,7 @@ const Home = ({ route }) => {
   ]);
 
   const renderJobCard = ({ item }) => (
-    <View style={styles.jobCardContainer}>
+    <View style={[styles.jobCardContainer, item.id === '2' && styles.jobCardContainerId2]}>
       <View style={styles.jobCardContent}>
         <View style={styles.jobTitleLocationContainer}>
           <View style={styles.jobTitleCompanyContainer}>
@@ -109,7 +109,7 @@ const Home = ({ route }) => {
 
       <View style={styles.featuredJobsContainer}>
         <Text style={styles.featured}>Featured Jobs</Text>
-        <Text style={[styles.seeAll, styles.marginLeft]}>See All</Text>
+        <Text style={[styles.seeAll, styles.marginLeft]}>See all</Text>
       </View>
 
       <FlatList
@@ -124,7 +124,7 @@ const Home = ({ route }) => {
       <View style={styles.ongoingStyles}>
         <View style={styles.popularJobsHeader}>
           <Text style={styles.title}>Popular Jobs</Text>
-          <Text style={{ color: '#AFB0B6', fontSize: 15 }}>see all</Text>
+          <Text style={{ color: '#AFB0B6', fontSize: 15 }}>See all</Text>
         </View>
         <View>
           {taskData.map((tasks) => (
@@ -164,11 +164,15 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   info: {
-    fontSize: 18,
+    fontSize: 30,
+    fontWeight: 'bold',
     marginVertical: 0,
   },
   noMargin: {
     marginVertical: 0,
+    fontSize: 15,
+    fontWeight: 300,
+    color:'#95969D',
   },
   profileImageContainer: {
     position: 'relative',
@@ -315,11 +319,10 @@ const styles = StyleSheet.create({
     height: 23.57,
   },
 
-  
+ 
      title:{
      fontWeight: 'bold',
      fontSize: 20,
-     marginVertical:20
      },
      popularJobsHeader: {
        flexDirection: 'row',
@@ -361,6 +364,12 @@ const styles = StyleSheet.create({
        color: '#666',
        fontSize: 14,
      },
+
+     jobCardContainerId2:{
+      backgroundColor: 'yellow',
+     }
 });
 
+
 export default Home;
+
